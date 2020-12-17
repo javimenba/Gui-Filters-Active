@@ -54,7 +54,6 @@ class Window_main(QMainWindow):
         elif value==7:
             fpb=Window_Fprbso(self)
             fpb.show()
-<<<<<<< HEAD
         elif value==8:
             fpb=Window_Fpb2opa(self)
             fpb.show()
@@ -64,8 +63,6 @@ class Window_main(QMainWindow):
         elif value==10:
              fpb=Window_fpbb2opa(self)
              fpb.show()
-=======
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
         else :
             print( "chale carnal" )
 
@@ -1249,11 +1246,7 @@ class Window_Fbso(QMainWindow):
         br3= (float(br33))*float(br31)
         br4 = float(br3)
         bc22= ((float(A)/(float(Q)*float(Q)))+1)*float(c)
-<<<<<<< HEAD
         fn= -1/(float(c)*float(br11))
-=======
-        fn= 1/(float(c)*float(br11))
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
         fd11= (1/(float(br11))) + (1/(float(br2)))
         fd12= 1/(float(c)*float(bc22)*float(br3))
         fd1 = float(fd11)*float(fd12)
@@ -1375,10 +1368,7 @@ class Window_Fprbso(QMainWindow):
         self.selectResistorhp.currentIndexChanged.connect( self.RhpSelector )
         self.selectCapacitorhp.currentIndexChanged.connect( self.ChpSelector )
 
-<<<<<<< HEAD
 
-=======
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
     def ButtonReturnWindows(self):
         self.parent().show()
         self.close()
@@ -1457,11 +1447,7 @@ class Window_Fprbso(QMainWindow):
         fd22=1/(float(bchp)*float(brhp))
         fd2 = float(fd22)+float(fd21)
         # Trazo de bode
-<<<<<<< HEAD
         bode = signal.TransferFunction( [1,0,float(fn)], [1, float(fd2), float(fd1)] )
-=======
-        bode = signal.TransferFunction( [1, float(fn), 0], [1, float(fd2), float(fd1)] )
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
         w, mag, phase = signal.bode( bode )
         self.bode.clear()
         # plt.figure()
@@ -1553,7 +1539,6 @@ class Window_Fprbso(QMainWindow):
             C = '{0:0.11f}'.format(c2)
             self.capacitorhp.setText(C)
 
-<<<<<<< HEAD
 class Window_Fpb2opa(QMainWindow):
     def __init__(self, parent=None):
         super(Window_Fpb2opa, self).__init__(parent)
@@ -2242,15 +2227,6 @@ class Window_fpbb2opa(QMainWindow):
             cc2 = chp/(1e-3)
             C = '{0:0.11f}'.format(cc2)
             self.capacitorhp.setText(C)
-=======
-
-
-
-
-
-
-
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

@@ -273,11 +273,7 @@
 color: rgb(170, 170, 255);</string>
     </property>
     <property name="text">
-<<<<<<< HEAD
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Filtro Rechaza Banda Activo&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;de Segundo Orden&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-=======
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Filtro Pasa Banda Activo&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;de Segundo Orden&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -574,11 +570,7 @@ color: rgb(170, 170, 255);</string>
      </rect>
     </property>
     <property name="text">
-<<<<<<< HEAD
      <string>Valor Resistencia Rc:</string>
-=======
-     <string>Valor Condensador RC:</string>
->>>>>>> fdbf36a8963d572904770d5d91542d29f556a9f0
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
